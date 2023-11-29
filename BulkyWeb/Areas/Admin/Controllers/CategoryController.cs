@@ -88,6 +88,7 @@ namespace BulkyBookWeb.Areas.Admin.Controllers
             }
             return View(categoryFromDb);
         }
+
         [HttpPost, ActionName("Delete")]
         public IActionResult DeletePOST(int? id)
         {

@@ -61,7 +61,7 @@ app.UseRouting();
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseSession();
-SeedDatabase();
+//SeedDatabase();
 app.MapRazorPages();
 app.MapControllerRoute(
     name: "default",
